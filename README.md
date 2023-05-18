@@ -61,7 +61,7 @@ Acesse o endereço localhost indicado no terminal
 
   - [Angular](https://angular.io)
   - [Typescript](https://www.typescriptlang.org)
-  - [TailwindUI](https://tailwindui.com)    
+  - [TailwindCSS](https://tailwindcss.com)    
 ## Desenvolvedor :octocat::
 
 <img src="https://avatars.githubusercontent.com/u/89784119?v=4" width=115><br>
