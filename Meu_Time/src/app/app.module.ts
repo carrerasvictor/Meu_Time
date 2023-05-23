@@ -8,12 +8,15 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './pages/login/login.component';
 import { CountryComponent } from './pages/country/country.component';
-import { TeamComponent } from './pages/team/team.component';
-import { LeagueComponent } from './pages/league/league.component';
-import { FormationComponent } from './pages/formation/formation.component';
+import { FormationComponent } from './components/formation/formation.component';
 import { LeaguesComponent } from './components/leagues/leagues.component';
 import { TableComponent } from './components/table/table.component';
 import { GraphicComponent } from './components/graphic/graphic.component';
+import { HomeComponent } from './pages/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { CardComponent } from './components/card/card.component';
+import { PlayersComponent } from './components/players/players.component';
 
 @NgModule({
   declarations: [
@@ -23,16 +26,19 @@ import { GraphicComponent } from './components/graphic/graphic.component';
     FooterComponent,
     LoginComponent,
     CountryComponent,
-    TeamComponent,
-    LeagueComponent,
     FormationComponent,
     LeaguesComponent,
     TableComponent,
-    GraphicComponent
+    GraphicComponent,
+    HomeComponent,
+    CardComponent,
+    PlayersComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,22 @@
+.logo-img {
+  justify-content: baseline;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-item {
+  text-decoration: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.nav-link:hover {
+  color: grey;
+}
